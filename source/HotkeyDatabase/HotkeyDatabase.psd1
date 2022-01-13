@@ -51,7 +51,7 @@ Description = 'Store, organize and manage hotkeys for applications'
 # ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
-RequiredModules = @('ReallySimpleDatabase', 
+RequiredModules = @('SimplySql',
                'Configuration')
 
 # Assemblies that must be loaded prior to importing this module
@@ -130,4 +130,3 @@ PrivateData = @{
 # DefaultCommandPrefix = ''
 
 }
-
