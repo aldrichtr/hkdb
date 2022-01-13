@@ -4,5 +4,6 @@
     }
     Database = @{
         Path = 'c:\users\taldrich\.hkdb\hk.db'
+        Name = 'hkdb'
     }
 }
