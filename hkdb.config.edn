@@ -1,0 +1,4 @@
+{:db {:path "hk.db"
+      :version "0.1.0" ; Version of the database schema
+      :client {:server-type :datomic-local
+               :system "hkdb"}}}

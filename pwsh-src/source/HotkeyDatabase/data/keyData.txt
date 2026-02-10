@@ -1,0 +1,8 @@
+# KeyData file , data starts on line 4(index 3), each row is an index number , followed by a comma separated
+# list of names
+
+
+37 left left_arrow leftarrow
+38 up up_arrow uparrow
+39 right right_arrow rightarrow
+40 down down_arrow downarrow
