@@ -1,0 +1,38 @@
+;;; .zprint.edn --- zprint formatter config file -*- mode: clojure -*-
+
+
+{:width 105
+
+ :cache {:directory ".zprint", :location "HOME/.cache"},
+
+ :style :community,
+ :format :on,
+
+;;; colors
+
+ :color? false,
+ :color-map {:brace :red,
+             :bracket :purple,
+             :char :black,
+             :comma :none,
+             :comment :green,
+             :deref :red,
+             :false :black,
+             :fn :blue,
+             :hash-brace :red,
+             :hash-paren :green,
+             :keyword :magenta,
+             :left :none,
+             :nil :yellow,
+             :none :black,
+             :number :purple,
+             :paren :green,
+             :quote :red,
+             :regex :black,
+             :right :none,
+             :string :red,
+             :symbol :black,
+             :syntax-quote-paren :red,
+             :true :black,
+             :uneval :magenta,
+             :user-fn :black}}

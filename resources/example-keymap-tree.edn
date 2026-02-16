@@ -1,0 +1,11 @@
+;; example-keymap-tree.edn --- Example of what the hkdb data looks like -*- mode: edn -*-
+
+;; This is ultimately how I want the data-structure to be built
+
+
+{:name "root" ;; Maybe Windows?
+ :keys [{[[:ctrl :x] [:ctrl :c]] {:command "Exit" :display-name "Close Emacs" :description ""}}]
+ :layers [{:name "terminal"
+           :keys []
+           :layers []}]
+ }
