@@ -1,0 +1,8 @@
+;;; .projectile --- Project configuration -*- lexical-binding: t; mode: emacs-lisp -*-
+
+((nil . ((projectile-project-test-cmd . "clj -A:test")
+         ;; do not ask for compile command each time
+         (compilation-read-command nil)))
+ (clojure-mode . ((fill-column . 105)
+                  (mode . auto-fill)
+                  (indent-tabs-mode . nil))))

@@ -1,0 +1,48 @@
+;;; deps.edn --- Config file for tools.deps build tool -*- mode: clojure -*-
+;;
+;;; Commentary:
+;; any of the aliases listed below can be run like `clj -X:deps <alias-name>
+
+{
+ :paths ["src" "resources"]
+
+;;; Project Dependencies
+ :deps {org.clojure/clojure {:mvn/version "1.12.4"}}
+
+ :aliases {
+;;; REPL
+           :nrepl {:extra-deps [{nrepl/nrepl {:mvn/version "1.5.2"}}
+                                {cider/cider-nrepl {:mvn/version "0.58.0"}}]}
+
+;;; Formatting
+           :format {:extra-deps {kkinnear/zprint {:mvn/version "1.3.0"}}
+                    :main-opts ["-m" "zprint.main"]}
+
+;;; Linting
+
+           :lint-cache {:replace-paths ["src"]} ;; when building classpath we want to exclude resources
+           ;; so we do not pick up our own clj-kondo config exports
+           :clj-kondo {:extra-deps {clj-kondo/clj-kondo {:mvn/version "2026.01.19"}}
+                       :override-deps {org.clojure/clojure {:mvn/version "1.12.4"}}
+                       :main-opts ["-m" "clj-kondo.main"]}
+
+           :eastwood {:extra-deps {jonase/eastwood {:mvn/version "1.4.3"}}
+                      :main-opts ["-m" "eastwood.lint" {}]}
+
+           ;; Note that antq requires :deps vice :extra-deps
+           :outdated {:deps {com.github.liquidz/antq {:mvn/version
+                                                      "2.11.1276"}}
+                      :main-opts ["-m" "antq.core"]}
+
+;;; Test
+           :test {:extra-paths ["test" "resources"]
+                  :extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}}
+                  ;; When run this way, we get a warning that -m is deprecated
+                  :main-opts ["-m" "kaocha.runner"]}
+                  ;; :exec-fn kaocha.runner/exec-fn
+                  ;; :exec-args {}}
+
+           ;; :test-config
+;;; Build
+           :build {:extra-deps {io.github.clojure/tools.build {:mvn/version "0.10.12"}}
+                   :ns-default build}}}
