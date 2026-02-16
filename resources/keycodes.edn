@@ -1,0 +1,167 @@
+;;; keycodes.edn --- Data file for loading the key information -*- mode: edn -*-
+;; This list is ripped from Microsoft at :
+;; [[https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes][Virtual-key Codes]]
+[
+  :none {value 0 :hex "0x00" :description "No key defined"}
+
+;;;; Mouse
+  :lbutton {value 1 :hex "0x01" :description "Left mouse button"}
+  :rbutton {value 2 :hex "0x02" :description "Right mouse button"}
+  :cancel {value 3 :hex "0x03" :description "Control-break processing"}
+  :mbutton {value 4 :hex "0x04" :description "Middle mouse button"}
+  :xbutton1 {value 5 :hex "0x05" :description "X1 mouse button"}
+  :xbutton2 {value 6 :hex "0x06" :description "X2 mouse button"}
+
+  :back {value 8 :hex "0x08" :description "BACKSPACE key"}
+  :tab {value 9 :hex "0x09" :description "TAB key"}
+
+  :clear {value 12 :hex "0x0C" :description "CLEAR key"}
+  :return {value 13 :hex "0x0D" :description "ENTER key"}
+
+  :shift {value 16 :hex "0x10" :description "SHIFT key"}
+  :control {value 17 :hex "0x11" :description "CTRL key"}
+  :menu {value 18 :hex "0x12" :description "ALT key"}
+  :pause {value 19 :hex "0x13" :description "PAUSE key"}
+  :capital {value 20 :hex "0x14" :description "CAPS LOCK key"}
+
+;;;; IME
+
+  :kana {value 21 :hex "0x15" :description "IME Kana mode"}
+  :hangul {value 21 :hex "0x15" :description "IME Hangul mode"}
+  :ime_on {value 22 :hex "0x16" :description "IME On"}
+  :junja {value 23 :hex "0x17" :description "IME Junja mode"}
+  :final {value 24 :hex "0x18" :description "IME final mode"}
+  :hanja {value 25 :hex "0x19" :description "IME Hanja mode"}
+  :kanji {value 25 :hex "0x19" :description "IME Kanji mode"}
+  :ime_off {value 26 :hex "0x1A" :description "IME Off"}
+
+  :escape {value 27 :hex "0x1B" :description "ESC key"}
+  :convert {value 28 :hex "0x1C" :description "IME convert"}
+  :nonconvert {value 29 :hex "0x1D" :description "IME nonconvert"}
+  :accept {value 30 :hex "0x1E" :description "IME accept"}
+  :modechange {value 31 :hex "0x1F" :description "IME mode change request"}
+
+  :space {value 32 :hex "0x20" :description "SPACEBAR"}
+  :prior {value 33 :hex "0x21" :description "PAGE UP key"}
+  :next {value 34 :hex "0x22" :description "PAGE DOWN key"}
+  :end {value 35 :hex "0x23" :description "END key"}
+  :home {value 36 :hex "0x24" :description "HOME key"}
+  :left {value 37 :hex "0x25" :description "LEFT ARROW key"}
+  :up {value 38 :hex "0x26" :description "UP ARROW key"}
+  :right {value 39 :hex "0x27" :description "RIGHT ARROW key"}
+  :down {value 40 :hex "0x28" :description "DOWN ARROW key"}
+  :select {value 41 :hex "0x29" :description "SELECT key"}
+  :print {value 42 :hex "0x2A" :description "PRINT key"}
+  :execute {value 43 :hex "0x2B" :description "EXECUTE key"}
+  :snapshot {value 44 :hex "0x2C" :description "PRINT SCREEN key"}
+  :insert {value 45 :hex "0x2D" :description "INS key"}
+  :delete {value 46 :hex "0x2E" :description "DEL key"}
+  :help {value 47 :hex "0x2F" :description "HELP key"}
+;;; Win key
+  :lwin {value 91 :hex "0x5B" :description "Left Windows key"}
+  :rwin {value 92 :hex "0x5C" :description "Right Windows key"}
+  :apps {value 93 :hex "0x5D" :description "Applications key"}
+  :sleep {value 95 :hex "0x5F" :description "Computer Sleep key"}
+
+  :numpad0 {value 96 :hex "0x60" :description "Numeric keypad 0 key"}
+  :numpad1 {value 97 :hex "0x61" :description "Numeric keypad 1 key"}
+  :numpad2 {value 98 :hex "0x62" :description "Numeric keypad 2 key"}
+  :numpad3 {value 99 :hex "0x63" :description "Numeric keypad 3 key"}
+  :numpad4 {value 100 :hex "0x64" :description "Numeric keypad 4 key"}
+  :numpad5 {value 101 :hex "0x65" :description "Numeric keypad 5 key"}
+  :numpad6 {value 102 :hex "0x66" :description "Numeric keypad 6 key"}
+  :numpad7 {value 103 :hex "0x67" :description "Numeric keypad 7 key"}
+  :numpad8 {value 104 :hex "0x68" :description "Numeric keypad 8 key"}
+  :numpad9 {value 105 :hex "0x69" :description "Numeric keypad 9 key"}
+
+  :multiply {value 106 :hex "0x6A" :description "Multiply key"}
+  :add {value 107 :hex "0x6B" :description "Add key"}
+  :separator {value 108 :hex "0x6C" :description "Separator key"}
+  :subtract {value 109 :hex "0x6D" :description "Subtract key"}
+  :decimal {value 110 :hex "0x6E" :description "Decimal key"}
+  :divide {value 111 :hex "0x6F" :description "Divide key"}
+
+  :f1 {value 112 :hex "0x70" :description "F1 key"}
+  :f2 {value 113 :hex "0x71" :description "F2 key"}
+  :f3 {value 114 :hex "0x72" :description "F3 key"}
+  :f4 {value 115 :hex "0x73" :description "F4 key"}
+  :f5 {value 116 :hex "0x74" :description "F5 key"}
+  :f6 {value 117 :hex "0x75" :description "F6 key"}
+  :f7 {value 118 :hex "0x76" :description "F7 key"}
+  :f8 {value 119 :hex "0x77" :description "F8 key"}
+  :f9 {value 120 :hex "0x78" :description "F9 key"}
+  :f10 {value 121 :hex "0x79" :description "F10 key"}
+  :f11 {value 122 :hex "0x7A" :description "F11 key"}
+  :f12 {value 123 :hex "0x7B" :description "F12 key"}
+  :f13 {value 124 :hex "0x7C" :description "F13 key"}
+  :f14 {value 125 :hex "0x7D" :description "F14 key"}
+  :f15 {value 126 :hex "0x7E" :description "F15 key"}
+  :f16 {value 127 :hex "0x7F" :description "F16 key"}
+  :f17 {value 128 :hex "0x80" :description "F17 key"}
+  :f18 {value 129 :hex "0x81" :description "F18 key"}
+  :f19 {value 130 :hex "0x82" :description "F19 key"}
+  :f20 {value 131 :hex "0x83" :description "F20 key"}
+  :f21 {value 132 :hex "0x84" :description "F21 key"}
+  :f22 {value 133 :hex "0x85" :description "F22 key"}
+  :f23 {value 134 :hex "0x86" :description "F23 key"}
+  :f24 {value 135 :hex "0x87" :description "F24 key"}
+
+  :numlock {value 144 :hex "0x90" :description "NUM LOCK key"}
+  :scroll {value 145 :hex "0x91" :description "SCROLL LOCK key"}
+
+  :lshift {value 160 :hex "0xA0" :description "Left SHIFT key"}
+  :rshift {value 161 :hex "0xA1" :description "Right SHIFT key"}
+  :lcontrol {value 162 :hex "0xA2" :description "Left CONTROL key"}
+  :rcontrol {value 163 :hex "0xA3" :description "Right CONTROL key"}
+  :lmenu {value 164 :hex "0xA4" :description "Left MENU key"}
+  :rmenu {value 165 :hex "0xA5" :description "Right MENU key"}
+
+  :browser_back {value 166 :hex "0xA6" :description "Browser Back key"}
+  :browser_forward {value 167 :hex "0xA7" :description "Browser Forward key"}
+  :browser_refresh {value 168 :hex "0xA8" :description "Browser Refresh key"}
+  :browser_stop {value 169 :hex "0xA9" :description "Browser Stop key"}
+  :browser_search {value 170 :hex "0xAA" :description "Browser Search key"}
+  :browser_favorites {value 171 :hex "0xAB" :description "Browser Favorites key"}
+  :browser_home {value 172 :hex "0xAC" :description "Browser Start and Home key"}
+
+  :volume_mute {value 173 :hex "0xAD" :description "Volume Mute key"}
+  :volume_down {value 174 :hex "0xAE" :description "Volume Down key"}
+  :volume_up {value 175 :hex "0xAF" :description "Volume Up key"}
+  :media_next_track {value 176 :hex "0xB0" :description "Next Track key"}
+  :media_prev_track {value 177 :hex "0xB1" :description "Previous Track key"}
+  :media_stop {value 178 :hex "0xB2" :description "Stop Media key"}
+  :media_play_pause {value 179 :hex "0xB3" :description "Play/Pause Media key"}
+
+  :launch_mail {value 180 :hex "0xB4" :description "Start Mail key"}
+  :launch_media_select {value 181 :hex "0xB5" :description "Select Media key"}
+  :launch_app1 {value 182 :hex "0xB6" :description "Start Application 1 key"}
+  :launch_app2 {value 183 :hex "0xB7" :description "Start Application 2 key"}
+
+  :oem_1 {value 186 :hex "0xBA" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ';:' key"}
+  :oem_plus {value 187 :hex "0xBB" :description "For any country/region, the '+' key"}
+  :oem_comma {value 188 :hex "0xBC" :description "For any country/region, the ',' key"}
+  :oem_minus {value 189 :hex "0xBD" :description "For any country/region, the '-' key"}
+  :oem_period {value 190 :hex "0xBE" :description "For any country/region, the '.' key"}
+  :oem_2 {value 191 :hex "0xBF" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '/?' key"}
+  :oem_3 {value 192 :hex "0xC0" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '`~' key"}
+
+  :oem_4 {value 219 :hex "0xDB" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '[{' key"}
+  :oem_5 {value 220 :hex "0xDC" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '\\|' key"}
+  :oem_6 {value 221 :hex "0xDD" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ']}' key"}
+  :oem_7 {value 222 :hex "0xDE" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the 'single-quote/double-quote' key"}
+  :oem_8 {value 223 :hex "0xDF" :description "Used for miscellaneous characters; it can vary by keyboard."}
+
+  :oem_102 {value 226 :hex "0xE2" :description "Either the angle bracket key or the backslash key on the RT 102-key keyboard"}
+
+  :processkey {value 229 :hex "0xE5" :description "IME PROCESS key"}
+  :packet {value 231 :hex "0xE7" :description "Used to pass Unicode characters as if they were keystrokes."}
+
+  :attn {value 246 :hex "0xF6" :description "ATTN key"}
+  :crsel {value 247 :hex "0xF7" :description "CRSEL key"}
+  :exsel {value 248 :hex "0xF8" :description "EXSEL key"}
+  :ereof {value 249 :hex "0xF9" :description "Erase EOF key"}
+  :play {value 250 :hex "0xFA" :description "PLAY key"}
+  :zoom {value 251 :hex "0xFB" :description "ZOOM key"}
+  :noname {value 252 :hex "0xFC" :description "Reserved"}
+  :pa1 {value 253 :hex "0xFD" :description "PA1 key"}
+  :oem_clear {value 254 :hex "0xFE" :description "CLEAR key"}]

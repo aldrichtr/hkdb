@@ -1,0 +1,167 @@
+;;; keycodes.edn --- Data file for loading the key information -*- mode: edn -*-
+;; This list is ripped from Microsoft at :
+;; [[https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes][Virtual-key Codes]]
+{
+  :VK_NONE    {:value 0 :hex "0x00" :description "No key defined"}
+
+;;;; Mouse
+  :VK_LBUTTON {:value 1 :hex "0x01" :description "Left mouse button"}
+  :VK_RBUTTON {:value 2 :hex "0x02" :description "Right mouse button"}
+  :VK_CANCEL {:value 3 :hex "0x03" :description "Control-break processing"}
+  :VK_MBUTTON {:value 4 :hex "0x04" :description "Middle mouse button"}
+  :VK_XBUTTON1 {:value 5 :hex "0x05" :description "X1 mouse button"}
+  :VK_XBUTTON2 {:value 6 :hex "0x06" :description "X2 mouse button"}
+
+  :VK_BACK {:value 8 :hex "0x08" :description "BACKSPACE key"}
+  :VK_TAB {:value 9 :hex "0x09" :description "TAB key"}
+
+  :VK_CLEAR {:value 12 :hex "0x0C" :description "CLEAR key"}
+  :VK_RETURN {:value 13 :hex "0x0D" :description "ENTER key"}
+
+  :VK_SHIFT {:value 16 :hex "0x10" :description "SHIFT key"}
+  :VK_CONTROL {:value 17 :hex "0x11" :description "CTRL key"}
+  :VK_MENU {:value 18 :hex "0x12" :description "ALT key"}
+  :VK_PAUSE {:value 19 :hex "0x13" :description "PAUSE key"}
+  :VK_CAPITAL {:value 20 :hex "0x14" :description "CAPS LOCK key"}
+
+;;;; IME
+
+  :VK_KANA {:value 21 :hex "0x15" :description "IME Kana mode"}
+  :VK_HANGUL {:value 21 :hex "0x15" :description "IME Hangul mode"}
+  :VK_IME_ON {:value 22 :hex "0x16" :description "IME On"}
+  :VK_JUNJA {:value 23 :hex "0x17" :description "IME Junja mode"}
+  :VK_FINAL {:value 24 :hex "0x18" :description "IME final mode"}
+  :VK_HANJA {:value 25 :hex "0x19" :description "IME Hanja mode"}
+  :VK_KANJI {:value 25 :hex "0x19" :description "IME Kanji mode"}
+  :VK_IME_OFF {:value 26 :hex "0x1A" :description "IME Off"}
+
+  :VK_ESCAPE {:value 27 :hex "0x1B" :description "ESC key"}
+  :VK_CONVERT {:value 28 :hex "0x1C" :description "IME convert"}
+  :VK_NONCONVERT {:value 29 :hex "0x1D" :description "IME nonconvert"}
+  :VK_ACCEPT {:value 30 :hex "0x1E" :description "IME accept"}
+  :VK_MODECHANGE {:value 31 :hex "0x1F" :description "IME mode change request"}
+
+  :VK_SPACE {:value 32 :hex "0x20" :description "SPACEBAR"}
+  :VK_PRIOR {:value 33 :hex "0x21" :description "PAGE UP key"}
+  :VK_NEXT {:value 34 :hex "0x22" :description "PAGE DOWN key"}
+  :VK_END {:value 35 :hex "0x23" :description "END key"}
+  :VK_HOME {:value 36 :hex "0x24" :description "HOME key"}
+  :VK_LEFT {:value 37 :hex "0x25" :description "LEFT ARROW key"}
+  :VK_UP {:value 38 :hex "0x26" :description "UP ARROW key"}
+  :VK_RIGHT {:value 39 :hex "0x27" :description "RIGHT ARROW key"}
+  :VK_DOWN {:value 40 :hex "0x28" :description "DOWN ARROW key"}
+  :VK_SELECT {:value 41 :hex "0x29" :description "SELECT key"}
+  :VK_PRINT {:value 42 :hex "0x2A" :description "PRINT key"}
+  :VK_EXECUTE {:value 43 :hex "0x2B" :description "EXECUTE key"}
+  :VK_SNAPSHOT {:value 44 :hex "0x2C" :description "PRINT SCREEN key"}
+  :VK_INSERT {:value 45 :hex "0x2D" :description "INS key"}
+  :VK_DELETE {:value 46 :hex "0x2E" :description "DEL key"}
+  :VK_HELP {:value 47 :hex "0x2F" :description "HELP key"}
+;;; Win key
+  :VK_LWIN {:value 91 :hex "0x5B" :description "Left Windows key"}
+  :VK_RWIN {:value 92 :hex "0x5C" :description "Right Windows key"}
+  :VK_APPS {:value 93 :hex "0x5D" :description "Applications key"}
+  :VK_SLEEP {:value 95 :hex "0x5F" :description "Computer Sleep key"}
+
+  :VK_NUMPAD0 {:value 96 :hex "0x60" :description "Numeric keypad 0 key"}
+  :VK_NUMPAD1 {:value 97 :hex "0x61" :description "Numeric keypad 1 key"}
+  :VK_NUMPAD2 {:value 98 :hex "0x62" :description "Numeric keypad 2 key"}
+  :VK_NUMPAD3 {:value 99 :hex "0x63" :description "Numeric keypad 3 key"}
+  :VK_NUMPAD4 {:value 100 :hex "0x64" :description "Numeric keypad 4 key"}
+  :VK_NUMPAD5 {:value 101 :hex "0x65" :description "Numeric keypad 5 key"}
+  :VK_NUMPAD6 {:value 102 :hex "0x66" :description "Numeric keypad 6 key"}
+  :VK_NUMPAD7 {:value 103 :hex "0x67" :description "Numeric keypad 7 key"}
+  :VK_NUMPAD8 {:value 104 :hex "0x68" :description "Numeric keypad 8 key"}
+  :VK_NUMPAD9 {:value 105 :hex "0x69" :description "Numeric keypad 9 key"}
+
+  :VK_MULTIPLY {:value 106 :hex "0x6A" :description "Multiply key"}
+  :VK_ADD {:value 107 :hex "0x6B" :description "Add key"}
+  :VK_SEPARATOR {:value 108 :hex "0x6C" :description "Separator key"}
+  :VK_SUBTRACT {:value 109 :hex "0x6D" :description "Subtract key"}
+  :VK_DECIMAL {:value 110 :hex "0x6E" :description "Decimal key"}
+  :VK_DIVIDE {:value 111 :hex "0x6F" :description "Divide key"}
+
+  :VK_F1 {:value 112 :hex "0x70" :description "F1 key"}
+  :VK_F2 {:value 113 :hex "0x71" :description "F2 key"}
+  :VK_F3 {:value 114 :hex "0x72" :description "F3 key"}
+  :VK_F4 {:value 115 :hex "0x73" :description "F4 key"}
+  :VK_F5 {:value 116 :hex "0x74" :description "F5 key"}
+  :VK_F6 {:value 117 :hex "0x75" :description "F6 key"}
+  :VK_F7 {:value 118 :hex "0x76" :description "F7 key"}
+  :VK_F8 {:value 119 :hex "0x77" :description "F8 key"}
+  :VK_F9 {:value 120 :hex "0x78" :description "F9 key"}
+  :VK_F10 {:value 121 :hex "0x79" :description "F10 key"}
+  :VK_F11 {:value 122 :hex "0x7A" :description "F11 key"}
+  :VK_F12 {:value 123 :hex "0x7B" :description "F12 key"}
+  :VK_F13 {:value 124 :hex "0x7C" :description "F13 key"}
+  :VK_F14 {:value 125 :hex "0x7D" :description "F14 key"}
+  :VK_F15 {:value 126 :hex "0x7E" :description "F15 key"}
+  :VK_F16 {:value 127 :hex "0x7F" :description "F16 key"}
+  :VK_F17 {:value 128 :hex "0x80" :description "F17 key"}
+  :VK_F18 {:value 129 :hex "0x81" :description "F18 key"}
+  :VK_F19 {:value 130 :hex "0x82" :description "F19 key"}
+  :VK_F20 {:value 131 :hex "0x83" :description "F20 key"}
+  :VK_F21 {:value 132 :hex "0x84" :description "F21 key"}
+  :VK_F22 {:value 133 :hex "0x85" :description "F22 key"}
+  :VK_F23 {:value 134 :hex "0x86" :description "F23 key"}
+  :VK_F24 {:value 135 :hex "0x87" :description "F24 key"}
+
+  :VK_NUMLOCK {:value 144 :hex "0x90" :description "NUM LOCK key"}
+  :VK_SCROLL {:value 145 :hex "0x91" :description "SCROLL LOCK key"}
+
+  :VK_LSHIFT {:value 160 :hex "0xA0" :description "Left SHIFT key"}
+  :VK_RSHIFT {:value 161 :hex "0xA1" :description "Right SHIFT key"}
+  :VK_LCONTROL {:value 162 :hex "0xA2" :description "Left CONTROL key"}
+  :VK_RCONTROL {:value 163 :hex "0xA3" :description "Right CONTROL key"}
+  :VK_LMENU {:value 164 :hex "0xA4" :description "Left MENU key"}
+  :VK_RMENU {:value 165 :hex "0xA5" :description "Right MENU key"}
+
+  :VK_BROWSER_BACK {:value 166 :hex "0xA6" :description "Browser Back key"}
+  :VK_BROWSER_FORWARD {:value 167 :hex "0xA7" :description "Browser Forward key"}
+  :VK_BROWSER_REFRESH {:value 168 :hex "0xA8" :description "Browser Refresh key"}
+  :VK_BROWSER_STOP {:value 169 :hex "0xA9" :description "Browser Stop key"}
+  :VK_BROWSER_SEARCH {:value 170 :hex "0xAA" :description "Browser Search key"}
+  :VK_BROWSER_FAVORITES {:value 171 :hex "0xAB" :description "Browser Favorites key"}
+  :VK_BROWSER_HOME {:value 172 :hex "0xAC" :description "Browser Start and Home key"}
+
+  :VK_VOLUME_MUTE {:value 173 :hex "0xAD" :description "Volume Mute key"}
+  :VK_VOLUME_DOWN {:value 174 :hex "0xAE" :description "Volume Down key"}
+  :VK_VOLUME_UP {:value 175 :hex "0xAF" :description "Volume Up key"}
+  :VK_MEDIA_NEXT_TRACK {:value 176 :hex "0xB0" :description "Next Track key"}
+  :VK_MEDIA_PREV_TRACK {:value 177 :hex "0xB1" :description "Previous Track key"}
+  :VK_MEDIA_STOP {:value 178 :hex "0xB2" :description "Stop Media key"}
+  :VK_MEDIA_PLAY_PAUSE {:value 179 :hex "0xB3" :description "Play/Pause Media key"}
+
+  :VK_LAUNCH_MAIL {:value 180 :hex "0xB4" :description "Start Mail key"}
+  :VK_LAUNCH_MEDIA_SELECT {:value 181 :hex "0xB5" :description "Select Media key"}
+  :VK_LAUNCH_APP1 {:value 182 :hex "0xB6" :description "Start Application 1 key"}
+  :VK_LAUNCH_APP2 {:value 183 :hex "0xB7" :description "Start Application 2 key"}
+
+  :VK_OEM_1 {:value 186 :hex "0xBA" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ';:' key"}
+  :VK_OEM_PLUS {:value 187 :hex "0xBB" :description "For any country/region, the '+' key"}
+  :VK_OEM_COMMA {:value 188 :hex "0xBC" :description "For any country/region, the ',' key"}
+  :VK_OEM_MINUS {:value 189 :hex "0xBD" :description "For any country/region, the '-' key"}
+  :VK_OEM_PERIOD {:value 190 :hex "0xBE" :description "For any country/region, the '.' key"}
+  :VK_OEM_2 {:value 191 :hex "0xBF" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '/?' key"}
+  :VK_OEM_3 {:value 192 :hex "0xC0" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '`~' key"}
+
+  :VK_OEM_4 {:value 219 :hex "0xDB" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '[{' key"}
+  :VK_OEM_5 {:value 220 :hex "0xDC" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '\\|' key"}
+  :VK_OEM_6 {:value 221 :hex "0xDD" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ']}' key"}
+  :VK_OEM_7 {:value 222 :hex "0xDE" :description "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the 'single-quote/double-quote' key"}
+  :VK_OEM_8 {:value 223 :hex "0xDF" :description "Used for miscellaneous characters; it can vary by keyboard."}
+
+  :VK_OEM_102 {:value 226 :hex "0xE2" :description "Either the angle bracket key or the backslash key on the RT 102-key keyboard"}
+
+  :VK_PROCESSKEY {:value 229 :hex "0xE5" :description "IME PROCESS key"}
+  :VK_PACKET {:value 231 :hex "0xE7" :description "Used to pass Unicode characters as if they were keystrokes."}
+
+  :VK_ATTN {:value 246 :hex "0xF6" :description "ATTN key"}
+  :VK_CRSEL {:value 247 :hex "0xF7" :description "CRSEL key"}
+  :VK_EXSEL {:value 248 :hex "0xF8" :description "EXSEL key"}
+  :VK_EREOF {:value 249 :hex "0xF9" :description "Erase EOF key"}
+  :VK_PLAY {:value 250 :hex "0xFA" :description "PLAY key"}
+  :VK_ZOOM {:value 251 :hex "0xFB" :description "ZOOM key"}
+  :VK_NONAME {:value 252 :hex "0xFC" :description "Reserved"}
+  :VK_PA1 {:value 253 :hex "0xFD" :description "PA1 key"}
+  :VK_OEM_CLEAR {:value 254 :hex "0xFE" :description "CLEAR key"}}
