@@ -1,0 +1,7 @@
+;;; tests.edn --- kaocha test runner config -*- mode: edn -*-
+
+;; This allows us to omit the namespace on config items
+#kaocha/v1
+
+{:tests [{:id          :unit
+          :test-paths  ["test"]}]}

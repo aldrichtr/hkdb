@@ -1,0 +1,1848 @@
+[
+  {
+    "Label": "",
+    "Group": "internal",
+    "Code": "0x0000",
+    "Aliases": [
+      "XXXXXXX"
+    ],
+    "Name": "KC_NO"
+  },
+  {
+    "Label": "",
+    "Group": "internal",
+    "Code": "0x0001",
+    "Aliases": [
+      "_______",
+      "KC_TRNS"
+    ],
+    "Name": "KC_TRANSPARENT"
+  },
+  {
+    "Label": "A",
+    "Group": "basic",
+    "Code": "0x0004",
+    "Aliases": null,
+    "Name": "KC_A"
+  },
+  {
+    "Label": "B",
+    "Group": "basic",
+    "Code": "0x0005",
+    "Aliases": null,
+    "Name": "KC_B"
+  },
+  {
+    "Label": "C",
+    "Group": "basic",
+    "Code": "0x0006",
+    "Aliases": null,
+    "Name": "KC_C"
+  },
+  {
+    "Label": "D",
+    "Group": "basic",
+    "Code": "0x0007",
+    "Aliases": null,
+    "Name": "KC_D"
+  },
+  {
+    "Label": "E",
+    "Group": "basic",
+    "Code": "0x0008",
+    "Aliases": null,
+    "Name": "KC_E"
+  },
+  {
+    "Label": "F",
+    "Group": "basic",
+    "Code": "0x0009",
+    "Aliases": null,
+    "Name": "KC_F"
+  },
+  {
+    "Label": "G",
+    "Group": "basic",
+    "Code": "0x000A",
+    "Aliases": null,
+    "Name": "KC_G"
+  },
+  {
+    "Label": "H",
+    "Group": "basic",
+    "Code": "0x000B",
+    "Aliases": null,
+    "Name": "KC_H"
+  },
+  {
+    "Label": "I",
+    "Group": "basic",
+    "Code": "0x000C",
+    "Aliases": null,
+    "Name": "KC_I"
+  },
+  {
+    "Label": "J",
+    "Group": "basic",
+    "Code": "0x000D",
+    "Aliases": null,
+    "Name": "KC_J"
+  },
+  {
+    "Label": "K",
+    "Group": "basic",
+    "Code": "0x000E",
+    "Aliases": null,
+    "Name": "KC_K"
+  },
+  {
+    "Label": "L",
+    "Group": "basic",
+    "Code": "0x000F",
+    "Aliases": null,
+    "Name": "KC_L"
+  },
+  {
+    "Label": "M",
+    "Group": "basic",
+    "Code": "0x0010",
+    "Aliases": null,
+    "Name": "KC_M"
+  },
+  {
+    "Label": "N",
+    "Group": "basic",
+    "Code": "0x0011",
+    "Aliases": null,
+    "Name": "KC_N"
+  },
+  {
+    "Label": "O",
+    "Group": "basic",
+    "Code": "0x0012",
+    "Aliases": null,
+    "Name": "KC_O"
+  },
+  {
+    "Label": "P",
+    "Group": "basic",
+    "Code": "0x0013",
+    "Aliases": null,
+    "Name": "KC_P"
+  },
+  {
+    "Label": "Q",
+    "Group": "basic",
+    "Code": "0x0014",
+    "Aliases": null,
+    "Name": "KC_Q"
+  },
+  {
+    "Label": "R",
+    "Group": "basic",
+    "Code": "0x0015",
+    "Aliases": null,
+    "Name": "KC_R"
+  },
+  {
+    "Label": "S",
+    "Group": "basic",
+    "Code": "0x0016",
+    "Aliases": null,
+    "Name": "KC_S"
+  },
+  {
+    "Label": "T",
+    "Group": "basic",
+    "Code": "0x0017",
+    "Aliases": null,
+    "Name": "KC_T"
+  },
+  {
+    "Label": "U",
+    "Group": "basic",
+    "Code": "0x0018",
+    "Aliases": null,
+    "Name": "KC_U"
+  },
+  {
+    "Label": "V",
+    "Group": "basic",
+    "Code": "0x0019",
+    "Aliases": null,
+    "Name": "KC_V"
+  },
+  {
+    "Label": "W",
+    "Group": "basic",
+    "Code": "0x001A",
+    "Aliases": null,
+    "Name": "KC_W"
+  },
+  {
+    "Label": "X",
+    "Group": "basic",
+    "Code": "0x001B",
+    "Aliases": null,
+    "Name": "KC_X"
+  },
+  {
+    "Label": "Y",
+    "Group": "basic",
+    "Code": "0x001C",
+    "Aliases": null,
+    "Name": "KC_Y"
+  },
+  {
+    "Label": "Z",
+    "Group": "basic",
+    "Code": "0x001D",
+    "Aliases": null,
+    "Name": "KC_Z"
+  },
+  {
+    "Label": "1",
+    "Group": "basic",
+    "Code": "0x001E",
+    "Aliases": null,
+    "Name": "KC_1"
+  },
+  {
+    "Label": "2",
+    "Group": "basic",
+    "Code": "0x001F",
+    "Aliases": null,
+    "Name": "KC_2"
+  },
+  {
+    "Label": "3",
+    "Group": "basic",
+    "Code": "0x0020",
+    "Aliases": null,
+    "Name": "KC_3"
+  },
+  {
+    "Label": "4",
+    "Group": "basic",
+    "Code": "0x0021",
+    "Aliases": null,
+    "Name": "KC_4"
+  },
+  {
+    "Label": "5",
+    "Group": "basic",
+    "Code": "0x0022",
+    "Aliases": null,
+    "Name": "KC_5"
+  },
+  {
+    "Label": "6",
+    "Group": "basic",
+    "Code": "0x0023",
+    "Aliases": null,
+    "Name": "KC_6"
+  },
+  {
+    "Label": "7",
+    "Group": "basic",
+    "Code": "0x0024",
+    "Aliases": null,
+    "Name": "KC_7"
+  },
+  {
+    "Label": "8",
+    "Group": "basic",
+    "Code": "0x0025",
+    "Aliases": null,
+    "Name": "KC_8"
+  },
+  {
+    "Label": "9",
+    "Group": "basic",
+    "Code": "0x0026",
+    "Aliases": null,
+    "Name": "KC_9"
+  },
+  {
+    "Label": "0",
+    "Group": "basic",
+    "Code": "0x0027",
+    "Aliases": null,
+    "Name": "KC_0"
+  },
+  {
+    "Label": "Enter",
+    "Group": "basic",
+    "Code": "0x0028",
+    "Aliases": [
+      "KC_ENT"
+    ],
+    "Name": "KC_ENTER"
+  },
+  {
+    "Label": "Esc",
+    "Group": "basic",
+    "Code": "0x0029",
+    "Aliases": [
+      "KC_ESC"
+    ],
+    "Name": "KC_ESCAPE"
+  },
+  {
+    "Label": "Backspace",
+    "Group": "basic",
+    "Code": "0x002A",
+    "Aliases": [
+      "KC_BSPC"
+    ],
+    "Name": "KC_BACKSPACE"
+  },
+  {
+    "Label": "Tab",
+    "Group": "basic",
+    "Code": "0x002B",
+    "Aliases": null,
+    "Name": "KC_TAB"
+  },
+  {
+    "Label": "Spacebar",
+    "Group": "basic",
+    "Code": "0x002C",
+    "Aliases": [
+      "KC_SPC"
+    ],
+    "Name": "KC_SPACE"
+  },
+  {
+    "Label": "-",
+    "Group": "basic",
+    "Code": "0x002D",
+    "Aliases": [
+      "KC_MINS"
+    ],
+    "Name": "KC_MINUS"
+  },
+  {
+    "Label": "=",
+    "Group": "basic",
+    "Code": "0x002E",
+    "Aliases": [
+      "KC_EQL"
+    ],
+    "Name": "KC_EQUAL"
+  },
+  {
+    "Label": "[",
+    "Group": "basic",
+    "Code": "0x002F",
+    "Aliases": [
+      "KC_LBRC"
+    ],
+    "Name": "KC_LEFT_BRACKET"
+  },
+  {
+    "Label": "]",
+    "Group": "basic",
+    "Code": "0x0030",
+    "Aliases": [
+      "KC_RBRC"
+    ],
+    "Name": "KC_RIGHT_BRACKET"
+  },
+  {
+    "Label": "\\",
+    "Group": "basic",
+    "Code": "0x0031",
+    "Aliases": [
+      "KC_BSLS"
+    ],
+    "Name": "KC_BACKSLASH"
+  },
+  {
+    "Label": "#",
+    "Group": "basic",
+    "Code": "0x0032",
+    "Aliases": [
+      "KC_NUHS"
+    ],
+    "Name": "KC_NONUS_HASH"
+  },
+  {
+    "Label": ";",
+    "Group": "basic",
+    "Code": "0x0033",
+    "Aliases": [
+      "KC_SCLN"
+    ],
+    "Name": "KC_SEMICOLON"
+  },
+  {
+    "Label": "'",
+    "Group": "basic",
+    "Code": "0x0034",
+    "Aliases": [
+      "KC_QUOT"
+    ],
+    "Name": "KC_QUOTE"
+  },
+  {
+    "Label": "`",
+    "Group": "basic",
+    "Code": "0x0035",
+    "Aliases": [
+      "KC_GRV"
+    ],
+    "Name": "KC_GRAVE"
+  },
+  {
+    "Label": ",",
+    "Group": "basic",
+    "Code": "0x0036",
+    "Aliases": [
+      "KC_COMM"
+    ],
+    "Name": "KC_COMMA"
+  },
+  {
+    "Label": ".",
+    "Group": "basic",
+    "Code": "0x0037",
+    "Aliases": null,
+    "Name": "KC_DOT"
+  },
+  {
+    "Label": "/",
+    "Group": "basic",
+    "Code": "0x0038",
+    "Aliases": [
+      "KC_SLSH"
+    ],
+    "Name": "KC_SLASH"
+  },
+  {
+    "Label": "Caps Lock",
+    "Group": "basic",
+    "Code": "0x0039",
+    "Aliases": [
+      "KC_CAPS"
+    ],
+    "Name": "KC_CAPS_LOCK"
+  },
+  {
+    "Label": "F1",
+    "Group": "basic",
+    "Code": "0x003A",
+    "Aliases": null,
+    "Name": "KC_F1"
+  },
+  {
+    "Label": "F2",
+    "Group": "basic",
+    "Code": "0x003B",
+    "Aliases": null,
+    "Name": "KC_F2"
+  },
+  {
+    "Label": "F3",
+    "Group": "basic",
+    "Code": "0x003C",
+    "Aliases": null,
+    "Name": "KC_F3"
+  },
+  {
+    "Label": "F4",
+    "Group": "basic",
+    "Code": "0x003D",
+    "Aliases": null,
+    "Name": "KC_F4"
+  },
+  {
+    "Label": "F5",
+    "Group": "basic",
+    "Code": "0x003E",
+    "Aliases": null,
+    "Name": "KC_F5"
+  },
+  {
+    "Label": "F6",
+    "Group": "basic",
+    "Code": "0x003F",
+    "Aliases": null,
+    "Name": "KC_F6"
+  },
+  {
+    "Label": "F7",
+    "Group": "basic",
+    "Code": "0x0040",
+    "Aliases": null,
+    "Name": "KC_F7"
+  },
+  {
+    "Label": "F8",
+    "Group": "basic",
+    "Code": "0x0041",
+    "Aliases": null,
+    "Name": "KC_F8"
+  },
+  {
+    "Label": "F9",
+    "Group": "basic",
+    "Code": "0x0042",
+    "Aliases": null,
+    "Name": "KC_F9"
+  },
+  {
+    "Label": "F10",
+    "Group": "basic",
+    "Code": "0x0043",
+    "Aliases": null,
+    "Name": "KC_F10"
+  },
+  {
+    "Label": "F11",
+    "Group": "basic",
+    "Code": "0x0044",
+    "Aliases": null,
+    "Name": "KC_F11"
+  },
+  {
+    "Label": "F12",
+    "Group": "basic",
+    "Code": "0x0045",
+    "Aliases": null,
+    "Name": "KC_F12"
+  },
+  {
+    "Label": "Print Screen",
+    "Group": "basic",
+    "Code": "0x0046",
+    "Aliases": [
+      "KC_PSCR"
+    ],
+    "Name": "KC_PRINT_SCREEN"
+  },
+  {
+    "Label": "Scroll Lock",
+    "Group": "basic",
+    "Code": "0x0047",
+    "Aliases": [
+      "KC_SCRL",
+      "KC_BRMD"
+    ],
+    "Name": "KC_SCROLL_LOCK"
+  },
+  {
+    "Label": "Pause",
+    "Group": "basic",
+    "Code": "0x0048",
+    "Aliases": [
+      "KC_PAUS",
+      "KC_BRK",
+      "KC_BRMU"
+    ],
+    "Name": "KC_PAUSE"
+  },
+  {
+    "Label": "Insert",
+    "Group": "basic",
+    "Code": "0x0049",
+    "Aliases": [
+      "KC_INS"
+    ],
+    "Name": "KC_INSERT"
+  },
+  {
+    "Label": "Home",
+    "Group": "basic",
+    "Code": "0x004A",
+    "Aliases": null,
+    "Name": "KC_HOME"
+  },
+  {
+    "Label": "Page Up",
+    "Group": "basic",
+    "Code": "0x004B",
+    "Aliases": [
+      "KC_PGUP"
+    ],
+    "Name": "KC_PAGE_UP"
+  },
+  {
+    "Label": "Delete",
+    "Group": "basic",
+    "Code": "0x004C",
+    "Aliases": [
+      "KC_DEL"
+    ],
+    "Name": "KC_DELETE"
+  },
+  {
+    "Label": "End",
+    "Group": "basic",
+    "Code": "0x004D",
+    "Aliases": null,
+    "Name": "KC_END"
+  },
+  {
+    "Label": "Page Down",
+    "Group": "basic",
+    "Code": "0x004E",
+    "Aliases": [
+      "KC_PGDN"
+    ],
+    "Name": "KC_PAGE_DOWN"
+  },
+  {
+    "Label": "Right",
+    "Group": "basic",
+    "Code": "0x004F",
+    "Aliases": [
+      "KC_RGHT"
+    ],
+    "Name": "KC_RIGHT"
+  },
+  {
+    "Label": "Left",
+    "Group": "basic",
+    "Code": "0x0050",
+    "Aliases": null,
+    "Name": "KC_LEFT"
+  },
+  {
+    "Label": "Down",
+    "Group": "basic",
+    "Code": "0x0051",
+    "Aliases": null,
+    "Name": "KC_DOWN"
+  },
+  {
+    "Label": "Up",
+    "Group": "basic",
+    "Code": "0x0052",
+    "Aliases": null,
+    "Name": "KC_UP"
+  },
+  {
+    "Label": "Num Lock",
+    "Group": "basic",
+    "Code": "0x0053",
+    "Aliases": [
+      "KC_NUM"
+    ],
+    "Name": "KC_NUM_LOCK"
+  },
+  {
+    "Label": "/",
+    "Group": "basic",
+    "Code": "0x0054",
+    "Aliases": [
+      "KC_PSLS"
+    ],
+    "Name": "KC_KP_SLASH"
+  },
+  {
+    "Label": "*",
+    "Group": "basic",
+    "Code": "0x0055",
+    "Aliases": [
+      "KC_PAST"
+    ],
+    "Name": "KC_KP_ASTERISK"
+  },
+  {
+    "Label": "-",
+    "Group": "basic",
+    "Code": "0x0056",
+    "Aliases": [
+      "KC_PMNS"
+    ],
+    "Name": "KC_KP_MINUS"
+  },
+  {
+    "Label": "+",
+    "Group": "basic",
+    "Code": "0x0057",
+    "Aliases": [
+      "KC_PPLS"
+    ],
+    "Name": "KC_KP_PLUS"
+  },
+  {
+    "Label": "Enter",
+    "Group": "basic",
+    "Code": "0x0058",
+    "Aliases": [
+      "KC_PENT"
+    ],
+    "Name": "KC_KP_ENTER"
+  },
+  {
+    "Label": "1",
+    "Group": "basic",
+    "Code": "0x0059",
+    "Aliases": [
+      "KC_P1"
+    ],
+    "Name": "KC_KP_1"
+  },
+  {
+    "Label": "2",
+    "Group": "basic",
+    "Code": "0x005A",
+    "Aliases": [
+      "KC_P2"
+    ],
+    "Name": "KC_KP_2"
+  },
+  {
+    "Label": "3",
+    "Group": "basic",
+    "Code": "0x005B",
+    "Aliases": [
+      "KC_P3"
+    ],
+    "Name": "KC_KP_3"
+  },
+  {
+    "Label": "4",
+    "Group": "basic",
+    "Code": "0x005C",
+    "Aliases": [
+      "KC_P4"
+    ],
+    "Name": "KC_KP_4"
+  },
+  {
+    "Label": "5",
+    "Group": "basic",
+    "Code": "0x005D",
+    "Aliases": [
+      "KC_P5"
+    ],
+    "Name": "KC_KP_5"
+  },
+  {
+    "Label": "6",
+    "Group": "basic",
+    "Code": "0x005E",
+    "Aliases": [
+      "KC_P6"
+    ],
+    "Name": "KC_KP_6"
+  },
+  {
+    "Label": "7",
+    "Group": "basic",
+    "Code": "0x005F",
+    "Aliases": [
+      "KC_P7"
+    ],
+    "Name": "KC_KP_7"
+  },
+  {
+    "Label": "8",
+    "Group": "basic",
+    "Code": "0x0060",
+    "Aliases": [
+      "KC_P8"
+    ],
+    "Name": "KC_KP_8"
+  },
+  {
+    "Label": "9",
+    "Group": "basic",
+    "Code": "0x0061",
+    "Aliases": [
+      "KC_P9"
+    ],
+    "Name": "KC_KP_9"
+  },
+  {
+    "Label": "0",
+    "Group": "basic",
+    "Code": "0x0062",
+    "Aliases": [
+      "KC_P0"
+    ],
+    "Name": "KC_KP_0"
+  },
+  {
+    "Label": ".",
+    "Group": "basic",
+    "Code": "0x0063",
+    "Aliases": [
+      "KC_PDOT"
+    ],
+    "Name": "KC_KP_DOT"
+  },
+  {
+    "Label": "\\",
+    "Group": "basic",
+    "Code": "0x0064",
+    "Aliases": [
+      "KC_NUBS"
+    ],
+    "Name": "KC_NONUS_BACKSLASH"
+  },
+  {
+    "Label": "Application",
+    "Group": "basic",
+    "Code": "0x0065",
+    "Aliases": [
+      "KC_APP"
+    ],
+    "Name": "KC_APPLICATION"
+  },
+  {
+    "Label": "Application",
+    "Group": "basic",
+    "Code": "0x0066",
+    "Aliases": null,
+    "Name": "KC_KB_POWER"
+  },
+  {
+    "Label": "=",
+    "Group": "basic",
+    "Code": "0x0067",
+    "Aliases": [
+      "KC_PEQL"
+    ],
+    "Name": "KC_KP_EQUAL"
+  },
+  {
+    "Label": "F13",
+    "Group": "basic",
+    "Code": "0x0068",
+    "Aliases": null,
+    "Name": "KC_F13"
+  },
+  {
+    "Label": "F14",
+    "Group": "basic",
+    "Code": "0x0069",
+    "Aliases": null,
+    "Name": "KC_F14"
+  },
+  {
+    "Label": "F15",
+    "Group": "basic",
+    "Code": "0x006A",
+    "Aliases": null,
+    "Name": "KC_F15"
+  },
+  {
+    "Label": "F16",
+    "Group": "basic",
+    "Code": "0x006B",
+    "Aliases": null,
+    "Name": "KC_F16"
+  },
+  {
+    "Label": "F17",
+    "Group": "basic",
+    "Code": "0x006C",
+    "Aliases": null,
+    "Name": "KC_F17"
+  },
+  {
+    "Label": "F18",
+    "Group": "basic",
+    "Code": "0x006D",
+    "Aliases": null,
+    "Name": "KC_F18"
+  },
+  {
+    "Label": "F19",
+    "Group": "basic",
+    "Code": "0x006E",
+    "Aliases": null,
+    "Name": "KC_F19"
+  },
+  {
+    "Label": "F20",
+    "Group": "basic",
+    "Code": "0x006F",
+    "Aliases": null,
+    "Name": "KC_F20"
+  },
+  {
+    "Label": "F21",
+    "Group": "basic",
+    "Code": "0x0070",
+    "Aliases": null,
+    "Name": "KC_F21"
+  },
+  {
+    "Label": "F22",
+    "Group": "basic",
+    "Code": "0x0071",
+    "Aliases": null,
+    "Name": "KC_F22"
+  },
+  {
+    "Label": "F23",
+    "Group": "basic",
+    "Code": "0x0072",
+    "Aliases": null,
+    "Name": "KC_F23"
+  },
+  {
+    "Label": "F24",
+    "Group": "basic",
+    "Code": "0x0073",
+    "Aliases": null,
+    "Name": "KC_F24"
+  },
+  {
+    "Label": "Execute",
+    "Group": "basic",
+    "Code": "0x0074",
+    "Aliases": [
+      "KC_EXEC"
+    ],
+    "Name": "KC_EXECUTE"
+  },
+  {
+    "Label": "Help",
+    "Group": "basic",
+    "Code": "0x0075",
+    "Aliases": null,
+    "Name": "KC_HELP"
+  },
+  {
+    "Label": "Menu",
+    "Group": "basic",
+    "Code": "0x0076",
+    "Aliases": null,
+    "Name": "KC_MENU"
+  },
+  {
+    "Label": "Select",
+    "Group": "basic",
+    "Code": "0x0077",
+    "Aliases": [
+      "KC_SLCT"
+    ],
+    "Name": "KC_SELECT"
+  },
+  {
+    "Label": "Stop",
+    "Group": "basic",
+    "Code": "0x0078",
+    "Aliases": null,
+    "Name": "KC_STOP"
+  },
+  {
+    "Label": "Again",
+    "Group": "basic",
+    "Code": "0x0079",
+    "Aliases": [
+      "KC_AGIN"
+    ],
+    "Name": "KC_AGAIN"
+  },
+  {
+    "Label": "Undo",
+    "Group": "basic",
+    "Code": "0x007A",
+    "Aliases": null,
+    "Name": "KC_UNDO"
+  },
+  {
+    "Label": "Cut",
+    "Group": "basic",
+    "Code": "0x007B",
+    "Aliases": null,
+    "Name": "KC_CUT"
+  },
+  {
+    "Label": "Copy",
+    "Group": "basic",
+    "Code": "0x007C",
+    "Aliases": null,
+    "Name": "KC_COPY"
+  },
+  {
+    "Label": "Paste",
+    "Group": "basic",
+    "Code": "0x007D",
+    "Aliases": [
+      "KC_PSTE"
+    ],
+    "Name": "KC_PASTE"
+  },
+  {
+    "Label": "Find",
+    "Group": "basic",
+    "Code": "0x007E",
+    "Aliases": null,
+    "Name": "KC_FIND"
+  },
+  {
+    "Label": "Mute",
+    "Group": "basic",
+    "Code": "0x007F",
+    "Aliases": null,
+    "Name": "KC_KB_MUTE"
+  },
+  {
+    "Label": "Volume Up",
+    "Group": "basic",
+    "Code": "0x0080",
+    "Aliases": null,
+    "Name": "KC_KB_VOLUME_UP"
+  },
+  {
+    "Label": "Volume Down",
+    "Group": "basic",
+    "Code": "0x0081",
+    "Aliases": null,
+    "Name": "KC_KB_VOLUME_DOWN"
+  },
+  {
+    "Label": "Caps Lock",
+    "Group": "basic",
+    "Code": "0x0082",
+    "Aliases": [
+      "KC_LCAP"
+    ],
+    "Name": "KC_LOCKING_CAPS_LOCK"
+  },
+  {
+    "Label": "Num Lock",
+    "Group": "basic",
+    "Code": "0x0083",
+    "Aliases": [
+      "KC_LNUM"
+    ],
+    "Name": "KC_LOCKING_NUM_LOCK"
+  },
+  {
+    "Label": "Scroll Lock",
+    "Group": "basic",
+    "Code": "0x0084",
+    "Aliases": [
+      "KC_LSCR"
+    ],
+    "Name": "KC_LOCKING_SCROLL_LOCK"
+  },
+  {
+    "Label": ",",
+    "Group": "basic",
+    "Code": "0x0085",
+    "Aliases": [
+      "KC_PCMM"
+    ],
+    "Name": "KC_KP_COMMA"
+  },
+  {
+    "Label": "=",
+    "Group": "basic",
+    "Code": "0x0086",
+    "Aliases": null,
+    "Name": "KC_KP_EQUAL_AS400"
+  },
+  {
+    "Label": "INT 1",
+    "Group": "basic",
+    "Code": "0x0087",
+    "Aliases": [
+      "KC_INT1"
+    ],
+    "Name": "KC_INTERNATIONAL_1"
+  },
+  {
+    "Label": "INT 2",
+    "Group": "basic",
+    "Code": "0x0088",
+    "Aliases": [
+      "KC_INT2"
+    ],
+    "Name": "KC_INTERNATIONAL_2"
+  },
+  {
+    "Label": "INT 3",
+    "Group": "basic",
+    "Code": "0x0089",
+    "Aliases": [
+      "KC_INT3"
+    ],
+    "Name": "KC_INTERNATIONAL_3"
+  },
+  {
+    "Label": "INT 4",
+    "Group": "basic",
+    "Code": "0x008A",
+    "Aliases": [
+      "KC_INT4"
+    ],
+    "Name": "KC_INTERNATIONAL_4"
+  },
+  {
+    "Label": "INT 5",
+    "Group": "basic",
+    "Code": "0x008B",
+    "Aliases": [
+      "KC_INT5"
+    ],
+    "Name": "KC_INTERNATIONAL_5"
+  },
+  {
+    "Label": "INT 6",
+    "Group": "basic",
+    "Code": "0x008C",
+    "Aliases": [
+      "KC_INT6"
+    ],
+    "Name": "KC_INTERNATIONAL_6"
+  },
+  {
+    "Label": "INT 7",
+    "Group": "basic",
+    "Code": "0x008D",
+    "Aliases": [
+      "KC_INT7"
+    ],
+    "Name": "KC_INTERNATIONAL_7"
+  },
+  {
+    "Label": "INT 8",
+    "Group": "basic",
+    "Code": "0x008E",
+    "Aliases": [
+      "KC_INT8"
+    ],
+    "Name": "KC_INTERNATIONAL_8"
+  },
+  {
+    "Label": "INT 9",
+    "Group": "basic",
+    "Code": "0x008F",
+    "Aliases": [
+      "KC_INT9"
+    ],
+    "Name": "KC_INTERNATIONAL_9"
+  },
+  {
+    "Label": "LANG 1",
+    "Group": "basic",
+    "Code": "0x0090",
+    "Aliases": [
+      "KC_LNG1"
+    ],
+    "Name": "KC_LANGUAGE_1"
+  },
+  {
+    "Label": "LANG 2",
+    "Group": "basic",
+    "Code": "0x0091",
+    "Aliases": [
+      "KC_LNG2"
+    ],
+    "Name": "KC_LANGUAGE_2"
+  },
+  {
+    "Label": "LANG 3",
+    "Group": "basic",
+    "Code": "0x0092",
+    "Aliases": [
+      "KC_LNG3"
+    ],
+    "Name": "KC_LANGUAGE_3"
+  },
+  {
+    "Label": "LANG 4",
+    "Group": "basic",
+    "Code": "0x0093",
+    "Aliases": [
+      "KC_LNG4"
+    ],
+    "Name": "KC_LANGUAGE_4"
+  },
+  {
+    "Label": "LANG 5",
+    "Group": "basic",
+    "Code": "0x0094",
+    "Aliases": [
+      "KC_LNG5"
+    ],
+    "Name": "KC_LANGUAGE_5"
+  },
+  {
+    "Label": "LANG 6",
+    "Group": "basic",
+    "Code": "0x0095",
+    "Aliases": [
+      "KC_LNG6"
+    ],
+    "Name": "KC_LANGUAGE_6"
+  },
+  {
+    "Label": "LANG 7",
+    "Group": "basic",
+    "Code": "0x0096",
+    "Aliases": [
+      "KC_LNG7"
+    ],
+    "Name": "KC_LANGUAGE_7"
+  },
+  {
+    "Label": "LANG 8",
+    "Group": "basic",
+    "Code": "0x0097",
+    "Aliases": [
+      "KC_LNG8"
+    ],
+    "Name": "KC_LANGUAGE_8"
+  },
+  {
+    "Label": "LANG 9",
+    "Group": "basic",
+    "Code": "0x0098",
+    "Aliases": [
+      "KC_LNG9"
+    ],
+    "Name": "KC_LANGUAGE_9"
+  },
+  {
+    "Label": "Alternate Erase",
+    "Group": "basic",
+    "Code": "0x0099",
+    "Aliases": [
+      "KC_ERAS"
+    ],
+    "Name": "KC_ALTERNATE_ERASE"
+  },
+  {
+    "Label": "SysReq/Attention",
+    "Group": "basic",
+    "Code": "0x009A",
+    "Aliases": [
+      "KC_SYRQ"
+    ],
+    "Name": "KC_SYSTEM_REQUEST"
+  },
+  {
+    "Label": "Cancel",
+    "Group": "basic",
+    "Code": "0x009B",
+    "Aliases": [
+      "KC_CNCL"
+    ],
+    "Name": "KC_CANCEL"
+  },
+  {
+    "Label": "Clear",
+    "Group": "basic",
+    "Code": "0x009C",
+    "Aliases": [
+      "KC_CLR"
+    ],
+    "Name": "KC_CLEAR"
+  },
+  {
+    "Label": "Prior",
+    "Group": "basic",
+    "Code": "0x009D",
+    "Aliases": [
+      "KC_PRIR"
+    ],
+    "Name": "KC_PRIOR"
+  },
+  {
+    "Label": "Return",
+    "Group": "basic",
+    "Code": "0x009E",
+    "Aliases": [
+      "KC_RETN"
+    ],
+    "Name": "KC_RETURN"
+  },
+  {
+    "Label": "Separator",
+    "Group": "basic",
+    "Code": "0x009F",
+    "Aliases": [
+      "KC_SEPR"
+    ],
+    "Name": "KC_SEPARATOR"
+  },
+  {
+    "Label": "Out",
+    "Group": "basic",
+    "Code": "0x00A0",
+    "Aliases": null,
+    "Name": "KC_OUT"
+  },
+  {
+    "Label": "Oper",
+    "Group": "basic",
+    "Code": "0x00A1",
+    "Aliases": null,
+    "Name": "KC_OPER"
+  },
+  {
+    "Label": "Clear/Again",
+    "Group": "basic",
+    "Code": "0x00A2",
+    "Aliases": [
+      "KC_CLAG"
+    ],
+    "Name": "KC_CLEAR_AGAIN"
+  },
+  {
+    "Label": "CrSel/Props",
+    "Group": "basic",
+    "Code": "0x00A3",
+    "Aliases": [
+      "KC_CRSL"
+    ],
+    "Name": "KC_CRSEL"
+  },
+  {
+    "Label": "ExSel",
+    "Group": "basic",
+    "Code": "0x00A4",
+    "Aliases": [
+      "KC_EXSL"
+    ],
+    "Name": "KC_EXSEL"
+  },
+  {
+    "Label": "System Power Down",
+    "Group": "system",
+    "Code": "0x00A5",
+    "Aliases": [
+      "KC_PWR"
+    ],
+    "Name": "KC_SYSTEM_POWER"
+  },
+  {
+    "Label": "System Sleep",
+    "Group": "system",
+    "Code": "0x00A6",
+    "Aliases": [
+      "KC_SLEP"
+    ],
+    "Name": "KC_SYSTEM_SLEEP"
+  },
+  {
+    "Label": "System Wake",
+    "Group": "system",
+    "Code": "0x00A7",
+    "Aliases": [
+      "KC_WAKE"
+    ],
+    "Name": "KC_SYSTEM_WAKE"
+  },
+  {
+    "Label": "Mute",
+    "Group": "media",
+    "Code": "0x00A8",
+    "Aliases": [
+      "KC_MUTE"
+    ],
+    "Name": "KC_AUDIO_MUTE"
+  },
+  {
+    "Label": "Volume Up",
+    "Group": "media",
+    "Code": "0x00A9",
+    "Aliases": [
+      "KC_VOLU"
+    ],
+    "Name": "KC_AUDIO_VOL_UP"
+  },
+  {
+    "Label": "Volume Down",
+    "Group": "media",
+    "Code": "0x00AA",
+    "Aliases": [
+      "KC_VOLD"
+    ],
+    "Name": "KC_AUDIO_VOL_DOWN"
+  },
+  {
+    "Label": "Next",
+    "Group": "media",
+    "Code": "0x00AB",
+    "Aliases": [
+      "KC_MNXT"
+    ],
+    "Name": "KC_MEDIA_NEXT_TRACK"
+  },
+  {
+    "Label": "Previous",
+    "Group": "media",
+    "Code": "0x00AC",
+    "Aliases": [
+      "KC_MPRV"
+    ],
+    "Name": "KC_MEDIA_PREV_TRACK"
+  },
+  {
+    "Label": "Stop",
+    "Group": "media",
+    "Code": "0x00AD",
+    "Aliases": [
+      "KC_MSTP"
+    ],
+    "Name": "KC_MEDIA_STOP"
+  },
+  {
+    "Label": "Play/Pause Track",
+    "Group": "media",
+    "Code": "0x00AE",
+    "Aliases": [
+      "KC_MPLY"
+    ],
+    "Name": "KC_MEDIA_PLAY_PAUSE"
+  },
+  {
+    "Label": "Launch Player",
+    "Group": "media",
+    "Code": "0x00AF",
+    "Aliases": [
+      "KC_MSEL"
+    ],
+    "Name": "KC_MEDIA_SELECT"
+  },
+  {
+    "Label": "Eject",
+    "Group": "media",
+    "Code": "0x00B0",
+    "Aliases": [
+      "KC_EJCT"
+    ],
+    "Name": "KC_MEDIA_EJECT"
+  },
+  {
+    "Label": "Launch Mail",
+    "Group": "media",
+    "Code": "0x00B1",
+    "Aliases": null,
+    "Name": "KC_MAIL"
+  },
+  {
+    "Label": "Launch Calculator",
+    "Group": "media",
+    "Code": "0x00B2",
+    "Aliases": [
+      "KC_CALC"
+    ],
+    "Name": "KC_CALCULATOR"
+  },
+  {
+    "Label": "Launch My Computer",
+    "Group": "media",
+    "Code": "0x00B3",
+    "Aliases": [
+      "KC_MYCM"
+    ],
+    "Name": "KC_MY_COMPUTER"
+  },
+  {
+    "Label": "Browser Search",
+    "Group": "media",
+    "Code": "0x00B4",
+    "Aliases": [
+      "KC_WSCH"
+    ],
+    "Name": "KC_WWW_SEARCH"
+  },
+  {
+    "Label": "Browser Home",
+    "Group": "media",
+    "Code": "0x00B5",
+    "Aliases": [
+      "KC_WHOM"
+    ],
+    "Name": "KC_WWW_HOME"
+  },
+  {
+    "Label": "Browser Back",
+    "Group": "media",
+    "Code": "0x00B6",
+    "Aliases": [
+      "KC_WBAK"
+    ],
+    "Name": "KC_WWW_BACK"
+  },
+  {
+    "Label": "Browser Forward",
+    "Group": "media",
+    "Code": "0x00B7",
+    "Aliases": [
+      "KC_WFWD"
+    ],
+    "Name": "KC_WWW_FORWARD"
+  },
+  {
+    "Label": "Browser Stop",
+    "Group": "media",
+    "Code": "0x00B8",
+    "Aliases": [
+      "KC_WSTP"
+    ],
+    "Name": "KC_WWW_STOP"
+  },
+  {
+    "Label": "Browser Refresh",
+    "Group": "media",
+    "Code": "0x00B9",
+    "Aliases": [
+      "KC_WREF"
+    ],
+    "Name": "KC_WWW_REFRESH"
+  },
+  {
+    "Label": "Browser Favorites",
+    "Group": "media",
+    "Code": "0x00BA",
+    "Aliases": [
+      "KC_WFAV"
+    ],
+    "Name": "KC_WWW_FAVORITES"
+  },
+  {
+    "Label": "Next Track",
+    "Group": "media",
+    "Code": "0x00BB",
+    "Aliases": [
+      "KC_MFFD"
+    ],
+    "Name": "KC_MEDIA_FAST_FORWARD"
+  },
+  {
+    "Label": "Previous Track",
+    "Group": "media",
+    "Code": "0x00BC",
+    "Aliases": [
+      "KC_MRWD"
+    ],
+    "Name": "KC_MEDIA_REWIND"
+  },
+  {
+    "Label": "Brightness Up",
+    "Group": "media",
+    "Code": "0x00BD",
+    "Aliases": [
+      "KC_BRIU"
+    ],
+    "Name": "KC_BRIGHTNESS_UP"
+  },
+  {
+    "Label": "Brightness Down",
+    "Group": "media",
+    "Code": "0x00BE",
+    "Aliases": [
+      "KC_BRID"
+    ],
+    "Name": "KC_BRIGHTNESS_DOWN"
+  },
+  {
+    "Label": "Open Control Panel",
+    "Group": "media",
+    "Code": "0x00BF",
+    "Aliases": [
+      "KC_CPNL"
+    ],
+    "Name": "KC_CONTROL_PANEL"
+  },
+  {
+    "Label": "Launch Assistant",
+    "Group": "media",
+    "Code": "0x00C0",
+    "Aliases": [
+      "KC_ASST"
+    ],
+    "Name": "KC_ASSISTANT"
+  },
+  {
+    "Label": "Open Mission Control",
+    "Group": "media",
+    "Code": "0x00C1",
+    "Aliases": [
+      "KC_MCTL"
+    ],
+    "Name": "KC_MISSION_CONTROL"
+  },
+  {
+    "Label": "Open Launchpad",
+    "Group": "media",
+    "Code": "0x00C2",
+    "Aliases": [
+      "KC_LPAD"
+    ],
+    "Name": "KC_LAUNCHPAD"
+  },
+  {
+    "Label": "Mouse cursor up",
+    "Group": "mouse",
+    "Code": "0x00CD",
+    "Aliases": [
+      "!reset!",
+      "MS_UP"
+    ],
+    "Name": "QK_MOUSE_CURSOR_UP"
+  },
+  {
+    "Label": "Mouse cursor down",
+    "Group": "mouse",
+    "Code": "0x00CE",
+    "Aliases": [
+      "!reset!",
+      "MS_DOWN"
+    ],
+    "Name": "QK_MOUSE_CURSOR_DOWN"
+  },
+  {
+    "Label": "Mouse cursor left",
+    "Group": "mouse",
+    "Code": "0x00CF",
+    "Aliases": [
+      "!reset!",
+      "MS_LEFT"
+    ],
+    "Name": "QK_MOUSE_CURSOR_LEFT"
+  },
+  {
+    "Label": "Mouse cursor right",
+    "Group": "mouse",
+    "Code": "0x00D0",
+    "Aliases": [
+      "!reset!",
+      "MS_RGHT"
+    ],
+    "Name": "QK_MOUSE_CURSOR_RIGHT"
+  },
+  {
+    "Label": "Mouse button 1",
+    "Group": "mouse",
+    "Code": "0x00D1",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN1"
+    ],
+    "Name": "QK_MOUSE_BUTTON_1"
+  },
+  {
+    "Label": "Mouse button 2",
+    "Group": "mouse",
+    "Code": "0x00D2",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN2"
+    ],
+    "Name": "QK_MOUSE_BUTTON_2"
+  },
+  {
+    "Label": "Mouse button 3",
+    "Group": "mouse",
+    "Code": "0x00D3",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN3"
+    ],
+    "Name": "QK_MOUSE_BUTTON_3"
+  },
+  {
+    "Label": "Mouse button 4",
+    "Group": "mouse",
+    "Code": "0x00D4",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN4"
+    ],
+    "Name": "QK_MOUSE_BUTTON_4"
+  },
+  {
+    "Label": "Mouse button 5",
+    "Group": "mouse",
+    "Code": "0x00D5",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN5"
+    ],
+    "Name": "QK_MOUSE_BUTTON_5"
+  },
+  {
+    "Label": "Mouse button 6",
+    "Group": "mouse",
+    "Code": "0x00D6",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN6"
+    ],
+    "Name": "QK_MOUSE_BUTTON_6"
+  },
+  {
+    "Label": "Mouse button 7",
+    "Group": "mouse",
+    "Code": "0x00D7",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN7"
+    ],
+    "Name": "QK_MOUSE_BUTTON_7"
+  },
+  {
+    "Label": "Mouse button 8",
+    "Group": "mouse",
+    "Code": "0x00D8",
+    "Aliases": [
+      "!reset!",
+      "MS_BTN8"
+    ],
+    "Name": "QK_MOUSE_BUTTON_8"
+  },
+  {
+    "Label": "Mouse wheel up",
+    "Group": "mouse",
+    "Code": "0x00D9",
+    "Aliases": [
+      "!reset!",
+      "MS_WHLU"
+    ],
+    "Name": "QK_MOUSE_WHEEL_UP"
+  },
+  {
+    "Label": "Mouse wheel down",
+    "Group": "mouse",
+    "Code": "0x00DA",
+    "Aliases": [
+      "!reset!",
+      "MS_WHLD"
+    ],
+    "Name": "QK_MOUSE_WHEEL_DOWN"
+  },
+  {
+    "Label": "Mouse wheel left",
+    "Group": "mouse",
+    "Code": "0x00DB",
+    "Aliases": [
+      "!reset!",
+      "MS_WHLL"
+    ],
+    "Name": "QK_MOUSE_WHEEL_LEFT"
+  },
+  {
+    "Label": "Mouse wheel right",
+    "Group": "mouse",
+    "Code": "0x00DC",
+    "Aliases": [
+      "!reset!",
+      "MS_WHLR"
+    ],
+    "Name": "QK_MOUSE_WHEEL_RIGHT"
+  },
+  {
+    "Label": "Set mouse acceleration to 0",
+    "Group": "mouse",
+    "Code": "0x00DD",
+    "Aliases": [
+      "!reset!",
+      "MS_ACL0"
+    ],
+    "Name": "QK_MOUSE_ACCELERATION_0"
+  },
+  {
+    "Label": "Set mouse acceleration to 1",
+    "Group": "mouse",
+    "Code": "0x00DE",
+    "Aliases": [
+      "!reset!",
+      "MS_ACL1"
+    ],
+    "Name": "QK_MOUSE_ACCELERATION_1"
+  },
+  {
+    "Label": "Set mouse acceleration to 2",
+    "Group": "mouse",
+    "Code": "0x00DF",
+    "Aliases": [
+      "!reset!",
+      "MS_ACL2"
+    ],
+    "Name": "QK_MOUSE_ACCELERATION_2"
+  },
+  {
+    "Label": "Left Control",
+    "Group": "modifiers",
+    "Code": "0x00E0",
+    "Aliases": [
+      "KC_LCTL"
+    ],
+    "Name": "KC_LEFT_CTRL"
+  },
+  {
+    "Label": "Left Shift",
+    "Group": "modifiers",
+    "Code": "0x00E1",
+    "Aliases": [
+      "KC_LSFT"
+    ],
+    "Name": "KC_LEFT_SHIFT"
+  },
+  {
+    "Label": "Left Alt",
+    "Group": "modifiers",
+    "Code": "0x00E2",
+    "Aliases": [
+      "KC_LALT",
+      "KC_LOPT"
+    ],
+    "Name": "KC_LEFT_ALT"
+  },
+  {
+    "Label": "Left GUI",
+    "Group": "modifiers",
+    "Code": "0x00E3",
+    "Aliases": [
+      "KC_LGUI",
+      "KC_LCMD",
+      "KC_LWIN"
+    ],
+    "Name": "KC_LEFT_GUI"
+  },
+  {
+    "Label": "Right Control",
+    "Group": "modifiers",
+    "Code": "0x00E4",
+    "Aliases": [
+      "KC_RCTL"
+    ],
+    "Name": "KC_RIGHT_CTRL"
+  },
+  {
+    "Label": "Right Shift",
+    "Group": "modifiers",
+    "Code": "0x00E5",
+    "Aliases": [
+      "KC_RSFT"
+    ],
+    "Name": "KC_RIGHT_SHIFT"
+  },
+  {
+    "Label": "Right Alt",
+    "Group": "modifiers",
+    "Code": "0x00E6",
+    "Aliases": [
+      "KC_RALT",
+      "KC_ROPT",
+      "KC_ALGR"
+    ],
+    "Name": "KC_RIGHT_ALT"
+  },
+  {
+    "Label": "Right GUI",
+    "Group": "modifiers",
+    "Code": "0x00E7",
+    "Aliases": [
+      "KC_RGUI",
+      "KC_RCMD",
+      "KC_RWIN"
+    ],
+    "Name": "KC_RIGHT_GUI"
+  }
+]
